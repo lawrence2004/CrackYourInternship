@@ -15,7 +15,7 @@ class GFG
 
     for (Map.Entry<Character,Integer> mapElement : count.entrySet()) {
       if (mapElement.getValue() > 1) 
-        System.out.println(mapElement.getKey() + ", count = " + mapElement.getValue());
+        System.out.println(mapElement.getKey() + mapElement.getValue());
     }
   }  public static void main(String args[])
   {
